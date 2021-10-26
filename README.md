@@ -3,6 +3,8 @@
 Nafder is a tool to identifying logs for container which has multi application.
 It reads logs from named pipe, and outputs them with prefix.
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/t-matsuo/nafder)](https://goreportcard.com/report/github.com/t-matsuo/nafder)
+
 ![](images/nafder.png)
 
 ## Usage
