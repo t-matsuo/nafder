@@ -205,6 +205,7 @@ func addPrefix(ctx context.Context, pipe string) {
 			}
 			line, err := reader.ReadBytes('\n')
 			if len(line) == 0 {
+				time.Sleep(100 * time.Millisecond)
 				continue
 			}
 			if err == nil {
