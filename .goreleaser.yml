@@ -25,7 +25,7 @@ archives:
       386: i386
       amd64: x86_64
     format: binary
-    name_template: "nafder_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}"
+    name_template: "nafder_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}"
 checksum:
   name_template: 'checksums.txt'
 snapshot:
